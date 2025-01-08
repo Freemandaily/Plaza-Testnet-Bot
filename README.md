@@ -13,7 +13,7 @@ NB: Make sure pip is install if not install >> sudo apt install pip
  The bot Requires sepolia base ETH for gas and plaza testnet faucet, make sure they arll in place
 
 ##### Starting Bot
->> python3 main.py
+>> Enter  python3 main.py
  
 
 
