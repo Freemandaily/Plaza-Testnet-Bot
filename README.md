@@ -6,7 +6,7 @@ This bot helps make transactions and help complete plaza testnet efficiently dai
 2. Navigate to bot folder by entering >> cd Plaza-Testnet-Bot
 3. Install Neccesary dependencies >> pip install -r requirements.txt
 4. Set you private keys in environment variables .<br> >>  export my_keys=paste_your_key,paste_your_key <br>
-   You can add as many key as possible , make sure they have faucet and gas
+   You can add as many key as possible , make sure they have faucet and gas <br>
 NB: Make sure pip is install if not install >> sudo apt install pip
 
  #### Usage
