@@ -98,8 +98,8 @@ def start(account,priv):
 
 
 
-raw_key = os.getenv("MY_KEYS", "")
-key_list = raw_key.strip("[]").replace(" ", "").split(",")
+raw_key = os.environ.get('my_keys')
+key_list = raw_key.split(',')
 while True:
     for key in key_list:
         account = Account.from_key(key)
