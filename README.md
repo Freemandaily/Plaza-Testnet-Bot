@@ -5,8 +5,8 @@ This bot helps make transactions and help complete plaza testnet efficiently dai
 1. install the file  by git cloning  here your terminal >> git clone https://github.com/Freemandaily/Plaza-Testnet-Bot.git
 2. Navigate to bot folder by entering >> cd Plaza-Testnet-Bot
 3. Install Neccesary dependencies >> pip install -r requirements.txt
-4. Navigate to .env file and add your private keys, you can add as many as possible
-
+4. Set you private keys in environment variables . >>  export my_keys=paste_your_key,paste_your_key
+   You can add as many key as possible , make sure they have faucet and gas
 NB: Make sure pip is install if not install >> sudo apt install pip
 
  #### Usage
